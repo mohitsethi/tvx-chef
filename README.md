@@ -14,3 +14,9 @@
   - Documentation: https://docs.chef.io/knife_search.html
 - Search & Execute command: `knife ssh "platform:ubuntu" "uptime" --ssh-user ubuntu -i surya-key.pem -a ec2.public_hostname`
 - Powershell resource: `https://docs.chef.io/resource_powershell_script.html`
+
+- Templates
+  - `mkdir -p templates/default`
+  - `cp files/default/index.html templates/default/index.html.erb`
+  
+
