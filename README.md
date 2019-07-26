@@ -13,3 +13,4 @@
 - Knife Search: `knife search "platform:ubuntu"` `knife search "chef_environment:teststage"` `knife search "chef_environment:teststage AND platform:ubuntu"`
   - Documentation: https://docs.chef.io/knife_search.html
 - Search & Execute command: `knife ssh "platform:ubuntu" "uptime" --ssh-user ubuntu -i surya-key.pem -a ec2.public_hostname`
+- Powershell resource: `https://docs.chef.io/resource_powershell_script.html`
