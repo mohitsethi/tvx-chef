@@ -10,3 +10,5 @@
 - Update recipes/default.rb
 - Upload to chef server: `knife cookbook upload ms`
 - Bootstraping node `knife bootstrap <fqdn> --ssh-user ubuntu --sudo -i <path-to-ec2-pem> --node-name ms-tvx-01 -r "recipe[ms::default], recipe[ms1::default]" -y`
+- Knife Search: `knife search "platform:ubuntu"`
+  - Documentation: https://docs.chef.io/knife_search.html
