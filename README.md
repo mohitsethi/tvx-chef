@@ -19,4 +19,24 @@
   - `mkdir -p templates/default`
   - `cp files/default/index.html templates/default/index.html.erb`
   
+### GIT
 
+
+sql_server_install 'sql1_coda' do
+    action :install
+end
+
+
+Git Commands
+
+- `git init`
+- `git add <file>`
+- `git status`
+- `git commit <file>` # provide the commit message later
+- `git log` # to list commit 
+- `git config --global user.name` # Sets the git username at user leve.
+- `git commit --amend <file>` # amend last commit
+- create file .gitignore
+- `git add .gitignore`
+- `git commit .gitignore -m '<message>'`
+- 
